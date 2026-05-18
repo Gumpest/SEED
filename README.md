@@ -75,7 +75,7 @@ pip install -e .
 
     4.2 Visual Instruction Tuning
 
-    - Training datasets: Honeybee-Remake-SEED-200K. 
+    - Training datasets: Honeybee-Remake-SEED-200K available in [HuggingFace](https://huggingface.co/datasets/LaplaceCoder/Honeybee-Remake-SEED-200K). 
 
     - Target datasets: random 5% of benchmark datasets. 
 
@@ -95,7 +95,8 @@ bash shell/1_warmup.sh
 bash shell/2_gradient_train.sh
 ```
 
-> Please note that you need to manually switch the comments four times to collect gradients for each of the four datasets separately.
+> [!Note]
+> Gradient collection must be performed separately for each dataset by manually switching the corresponding comments four times.
 
 3. Collect the target gradient datastore
 ```Shell
@@ -125,6 +126,19 @@ bash evaluation/batch_eval.sh
 ```Shell
 python evaluation/print_res.py
 ```
+
+  The results are shown as follows:
+  ```
+  ================== Summary Table ==================
+
+  Task       | Checkpoint   | Score   
+  ------------------------------------
+  tydiqa     | 211          | 57.5664 
+  mmlu       | 211          | 0.6513  
+  bbh        | 317          | 0.6676  
+
+  ==================================================
+  ```
 
 ## License
 This project is released under the [Apache 2.0 license](LICENSE).
