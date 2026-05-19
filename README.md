@@ -7,17 +7,21 @@
 
 <h5 align="center"> 
 
-[Yuan Zhang](https://gumpest.github.io/)<sup>1,2</sup>,
+[Yuan Zhang](https://gumpest.github.io/)<sup>1</sup>,
 [Lifeng Guo]()<sup>2</sup>,
-[Junwen Pan](https://scholar.google.com/citations?user=YvgX3sUAAAAJ&hl=en&oi=sra)<sup>2</sup>,
-[Wenzhao Zheng](https://wzzheng.net/)<sup>3</sup>,
+[Junwen Pan](https://scholar.google.com/citations?user=YvgX3sUAAAAJ&hl=en&oi=sra)<sup>3</sup>,
+[Wenzhao Zheng](https://wzzheng.net/)<sup>4</sup>,
 
-[Chang Liu]()<sup>2</sup>,
+[Wen Zhou]()<sup>5</sup>,
 [Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm)<sup>1</sup>,
-[Kurt Keutzer](http://people.eecs.berkeley.edu/~keutzer/)<sup>3</sup>,
+[Kurt Keutzer](http://people.eecs.berkeley.edu/~keutzer/)<sup>4</sup>,
 [Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm)<sup>1✉️</sup>
 
-<sup>1</sup>School of Computer Science, Peking University, <sup>2</sup>ByteDance Inc, <sup>3</sup>EECS, UC Berkeley
+<sup>1</sup>School of Computer Science, Peking University
+
+<sup>2</sup>Beijing University of Posts and Telecommunications, <sup>3</sup>Tianjin University
+
+<sup>4</sup>EECS, UC Berkeley, <sup>5</sup>Chinese Academy of Sciences
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.04417)
 [![Code](https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gumpest/SEED)
